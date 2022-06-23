@@ -24,6 +24,7 @@
 
 .hero__image {
   width: 30rem;
+  animation: spin infinite 100s linear;
 }
 
 .hero__wrapper-button-wrapper {
@@ -58,5 +59,14 @@
 
   .hero__image {
     width: 90%;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
