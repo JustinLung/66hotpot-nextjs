@@ -5,6 +5,7 @@
   --color-red: #e51c19;
   --color-white: #ffffff;
   --dark-grey: #19191e;
+  --border-radius-pilled: 8rem;
 }
 
 * {
