@@ -1,0 +1,39 @@
+.white,
+.red {
+  all: unset;
+  padding: 1rem 2rem;
+  border-radius: var(--border-radius-pilled);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.white {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  border: 3px solid var(--color-white);
+}
+
+.red {
+  background-color: var(--color-red);
+  color: var(--color-white);
+  border: 3px solid var(--color-red);
+}
+
+.white:hover {
+  color: var(--color-white);
+  background-color: transparent;
+  border: 3px solid var(--color-white);
+}
+
+.red:hover {
+  color: var(--color-white);
+  background-color: transparent;
+  border: 3px solid var(--color-red);
+}
+
+@media (max-width: 32rem) {
+  .white,
+  .red {
+    padding: 1rem;
+  }
+}
