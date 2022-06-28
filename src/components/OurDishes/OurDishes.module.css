@@ -1,0 +1,29 @@
+.our-dishes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-dishes__title {
+  font-size: 3rem;
+}
+
+.our-dishes__info-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+
+@media (max-width: 80rem) {
+  .our-dishes__info-card-container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+}
+
+@media (max-width: 60rem) {
+  .our-dishes__info-card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
