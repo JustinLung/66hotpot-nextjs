@@ -6,6 +6,22 @@
 
 .info-card__image-wrapper {
   width: 100%;
+  position: relative;
+}
+
+.info-card__gradient {
+  position: absolute;
+  bottom: 0;
+  background: rgb(59, 51, 67);
+  background: linear-gradient(
+    180deg,
+    rgba(59, 51, 67, 0) 0%,
+    rgba(229, 28, 25, 1) 50%
+  );
+  opacity: 0.5;
+  width: 100%;
+  height: 10rem;
+  height: 10rem;
 }
 
 .info-card__title {
@@ -19,5 +35,5 @@
   margin: 0;
   padding: 1rem 1.5rem 1.5rem;
   font-size: 1.125rem;
-  font-weight: lighter;
+  font-weight: light;
 }

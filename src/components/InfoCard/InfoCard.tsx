@@ -13,6 +13,7 @@ export function InfoCard({ infoCardImage, infoCardTitle, infoCardDescription }: 
       <article className={styles['info-card']}>
         <div className={styles['info-card__image-wrapper']}>
           <Image src={infoCardImage} alt="Food" width={500} height={500} className={styles['info-card__image-wrapper__image']} />
+          <div className={styles['info-card__gradient']}></div>
         </div>
         <h3 className={styles['info-card__title']}>{infoCardTitle}</h3>
         <p className={styles['info-card__description']}>{infoCardDescription}</p>
